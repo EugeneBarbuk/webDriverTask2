@@ -32,7 +32,7 @@ public class TestPageClickAndFill {
     }
 
     @Test
-    public void testPasteBinPage() throws InterruptedException {
+    public void testPasteBinPage() {
         pageAutoInputAndClick = new PageAutoInputAndClick(driver);
         pageAutoInputAndClick.insertTextPaste(NEW_PASTE_TEXT);
         pageAutoInputAndClick.clickSyntax();
